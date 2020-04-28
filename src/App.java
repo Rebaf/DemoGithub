@@ -4,7 +4,7 @@ public class App {
     }
 
     private static void doStuff() {
-        System.out.println("Doing a lot of cool Stuff....");
+        System.out.println("App.doStuff called by featureY");
     }
 
     private static void featureY() {
