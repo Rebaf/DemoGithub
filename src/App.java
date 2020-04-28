@@ -3,7 +3,11 @@ public class App {
         System.out.println("Mijn App");
     }
 
-    private void doStuff() {
+    private static void doStuff() {
         System.out.println("Doing a lot of cool Stuff....");
+    }
+
+    private static void featureZ() {
+        doStuff();
     }
 }
